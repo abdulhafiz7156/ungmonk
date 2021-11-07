@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+  font-family: "Roboto";
+}
+
+.container {
+    max-width: 99%;
+    margin: 0 auto;
+}
+.container2 {
+    max-width: 75%;
+    margin: 0 auto;
+}
+.header_1 img:nth-child(2) {
+    width: 23px;
+    height: 37px;
+}
+.header_body {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+header {
+    padding-bottom: 50px;
+}
+.ul-1, .ul-2 {
+    display: flex;
+}
+ul li {
+    list-style: none;
+}
+ul li a {
+    text-decoration: none;
+    color: #000;
+}
+.ul-1 li a{
+    margin-right: 32px;
+}
+.ul-2 li a{
+    margin-right: 26px;
+}
+.ul-2 img {
+    width: 20px;
+    height: 20px;
+}
+.header_1 img:nth-child(1) {
+    margin-right: 25px;
+}
+.div-1{ 
+    background-image: url(../img/Rectangle.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 87.5vh;
+}
+.div-1 h3 {
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    color: #fff;
+}
+.div-1 h4 {
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    color: #fff;
+}
+.div-1 .ff {
+    width: 100px;
+    height: 1px;
+    background-color: #fff;
+}
+.div-2 {
+    display: flex;
+    align-items: flex-end;
+    text-align: left;
+    height: 87.5vh;
+}
