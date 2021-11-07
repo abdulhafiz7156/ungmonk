@@ -1,83 +1,100 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-
-* {
-  font-family: "Roboto";
+body {
+    font-family: "Roboto Light";
 }
 
-.container {
-    max-width: 99%;
+.wrapper {
+    max-width: 1300px;
     margin: 0 auto;
 }
-.container2 {
-    max-width: 75%;
-    margin: 0 auto;
+
+
+.arivals {
+    padding-top: 40px;
 }
-.header_1 img:nth-child(2) {
-    width: 23px;
-    height: 37px;
-}
-.header_body {
-    padding-top: 30px;
+
+.arrivals__list {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
-header {
-    padding-bottom: 50px;
-}
-.ul-1, .ul-2 {
-    display: flex;
-}
-ul li {
+
+.arrivals__link {
     list-style: none;
+    margin-right: 48px;
 }
-ul li a {
+
+.arivals__a {
+    color: #B3B3B3;
+    font-size: 20px;
     text-decoration: none;
-    color: #000;
 }
-.ul-1 li a{
-    margin-right: 32px;
+.arivals__a:hover {
+    color: #B3B3B3 !important;
+    text-decoration: none;
 }
-.ul-2 li a{
-    margin-right: 26px;
-}
-.ul-2 img {
-    width: 20px;
-    height: 20px;
-}
-.header_1 img:nth-child(1) {
-    margin-right: 25px;
-}
-.div-1{ 
-    background-image: url(../img/Rectangle.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 87.5vh;
-}
-.div-1 h3 {
-    font-family: Roboto;
-    font-size: 18px;
+
+.active {
+    color: #1A1A1A;
+    border-bottom: 1px solid #1A1A1A;
     font-style: normal;
-    font-weight: 400;
-    line-height: 29px;
-    letter-spacing: 0em;
-    color: #fff;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    color: #1A1A1A;
 }
-.div-1 h4 {
-    font-family: Roboto;
+.card__image {
+    max-width: 275px;
+    height: 341px;
+}
+
+.card__image>img {
+    max-width: 275px;
+    height:  341px;
+}
+
+.newsarrival,
+.analogdir,
+.finalstockdir{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+
+
+.grey {
+    color: #A8A8A8;
+}
+
+.red {
+    color: #FF3451;
+}
+
+.newsarrivaltext {
+    font-style: normal;
+    font-weight: normal;
     font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 6px;
+    margin-top: 11px;
+    color: #1A1A1A;
+}
+
+.card__small {
     font-style: normal;
-    font-weight: 400;
-    color: #fff;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 13px;
 }
-.div-1 .ff {
-    width: 100px;
-    height: 1px;
-    background-color: #fff;
+
+.card__text:last-child {
+    padding-bottom: 31px;
 }
-.div-2 {
-    display: flex;
-    align-items: flex-end;
-    text-align: left;
-    height: 87.5vh;
+
+
+.oneanalog {
+    display: none;
+}
+
+.onefinalstock {
+    display: none;
 }
